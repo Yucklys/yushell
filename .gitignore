@@ -1,0 +1,7 @@
+# Nix
+.direnv/
+.envrc
+result
+
+# Version control
+.jj
