@@ -1,5 +1,5 @@
 {
-  description = "Yushell - A minimal system bar for Niri";
+  description = "YANS - Yet-Another-Niri-Shell";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
@@ -40,8 +40,7 @@
           ];
 
           shellHook = ''
-            echo "Yushell development shell"
-            echo "Run: quickshell -p ."
+            echo "YANS - Yet-Another-Niri-Shell"
           '';
         };
       };
